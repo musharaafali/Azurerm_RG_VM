@@ -66,5 +66,5 @@ resource "azurerm_network_interface_backend_address_pool_association" "lb_assoc"
 }
 
 output "resource_group_ids" {
-  value = module.resource_group.rg_ids
+  value = "module.resource_group.rg_ids"
 }
